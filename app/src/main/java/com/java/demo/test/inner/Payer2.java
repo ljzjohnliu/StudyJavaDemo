@@ -1,4 +1,4 @@
-package com.java.demo.test;
+package com.java.demo.test.inner;
 
 /**
  * Payer类和IPay接口有相同的方法pay()，然后我们有如下实现方法：

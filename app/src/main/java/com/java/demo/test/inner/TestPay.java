@@ -1,4 +1,4 @@
-package com.java.demo.test;
+package com.java.demo.test.inner;
 
 class TestPay {
     public static void main(String[] args) {

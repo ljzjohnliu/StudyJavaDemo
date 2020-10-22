@@ -1,4 +1,4 @@
-package com.java.demo.test;
+package com.java.demo.test.inner;
 
 public interface IPay{
     void pay();

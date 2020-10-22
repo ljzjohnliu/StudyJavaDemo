@@ -1,4 +1,4 @@
-package com.java.demo.test;
+package com.java.demo.test.inner;
 
 public class Payer1 extends Payer {
 
