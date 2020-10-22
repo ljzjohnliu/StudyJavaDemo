@@ -10,6 +10,7 @@ public class Payer2 extends Payer implements IPay {
      */
     @Override
     public void pay() {
+        super.pay();
         System.out.println("pay ing...");
     }
 }
