@@ -27,7 +27,8 @@ public class SortTest {
          */
 
         System.out.println(Arrays.toString(array));
-        BubbleSort.sort(array);
+//        BubbleSort.sort(array);
+        Quicksort.sort(array, 0, array.length - 1);
         System.out.println(Arrays.toString(array));
     }
 }
