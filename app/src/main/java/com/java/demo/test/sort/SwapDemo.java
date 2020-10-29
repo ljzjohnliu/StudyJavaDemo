@@ -60,6 +60,9 @@ public class SwapDemo {
      * @param j     下标j
      */
     public static void swapByBitOperation(int[] array, int i, int j) {
+        if (array[i] == array[j]) {
+            return;
+        }
         array[i] = array[i] ^ array[j];
         array[j] = array[i] ^ array[j]; //array[i]^array[j]^array[j]=array[i]
         array[i] = array[i] ^ array[j]; //array[i]^array[j]^array[i]=array[j]

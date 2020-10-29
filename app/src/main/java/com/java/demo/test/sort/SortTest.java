@@ -5,7 +5,8 @@ import java.util.Arrays;
 public class SortTest {
 
     public static void main(String[] args) {
-        int[] array = new int[]{4, 3, 7, 5, 10, 9, 1, 6, 8, 2};
+        int[] array = new int[]{4, 3, 7, 1};
+//        int[] array = new int[]{4, 3, 7, 5, 10, 9, 1, 6, 8, 2};
         /**
          * 数组的输出的三种方式
          *         一维数组：
@@ -28,7 +29,7 @@ public class SortTest {
 
         System.out.println(Arrays.toString(array));
 //        BubbleSort.sort(array);
-        Quicksort.sort(array, 0, array.length - 1);
+        Quicksort.sort2(array, 0, array.length - 1);
         System.out.println(Arrays.toString(array));
     }
 }
